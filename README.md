@@ -1,5 +1,11 @@
 # P13_ArgentBank API
 
+- ![Author](<https://img.shields.io/badge/Author-Khaera Belkadi-">)
+- ![GitHub repo size](<https://img.shields.io/github/repo-size/KhaeraB/P13_ArgentBank>)  
+- ![GitHub top language](https://img.shields.io/github/languages/top/KhaeraB/P13_ArgentBank)
+- ![GitHub language count](https://img.shields.io/github/languages/count/KhaeraB/P13_ArgentBank)
+
+
 This codebase contains the code needed to run the backend for Argent Bank.
 
 ## Getting Started
