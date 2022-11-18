@@ -1,0 +1,20 @@
+{
+  "name": "argentbank",
+  "version": "1.0.0",
+  "description": "Application bancaire",
+  "main": "index.js",
+  "scripts": {
+    "test": "test", 
+    "dev" : "cd  Project-13-Bank-API-BACKEND && dev:server && cd.. && cd Project-13-Bank-API-FRONT-END && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhaeraB/P13_ArgentBank.git"
+  },
+  "author": "Khaera Belkadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhaeraB/P13_ArgentBank/issues"
+  },
+  "homepage": "https://github.com/KhaeraB/P13_ArgentBank#readme"
+}
