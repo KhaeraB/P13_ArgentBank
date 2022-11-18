@@ -58,7 +58,7 @@ cd front-end && yarn && cd..
 cd backend && yarn && cd..   
 
 # Start local dev server
-npm run dev:server
+npm run dev
 
 # Populate database with two users
 npm run populate-db
