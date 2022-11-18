@@ -4,8 +4,10 @@
   "description": "Application bancaire",
   "main": "index.js",
   "scripts": {
-    "test": "test", 
-    "dev" : "cd  Project-13-Bank-API-BACKEND && dev:server && cd.. && cd Project-13-Bank-API-FRONT-END && npm start"
+    "test": "test",
+    "server": " cd backend && npm run dev:server && cd ..",
+    "client": "set PORT=3000&& npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/KhaeraB/P13_ArgentBank/issues"
   },
-  "homepage": "https://github.com/KhaeraB/P13_ArgentBank#readme"
+  "homepage": "https://github.com/KhaeraB/P13_ArgentBank#readme",
+  "dependencies": {
+    "concurrently": "^7.5.0"
+  }
 }
