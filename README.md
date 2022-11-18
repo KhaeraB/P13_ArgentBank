@@ -39,7 +39,11 @@ mongo --version
 - Clone this repo on your computer:
 
 ````bash
-$ git clone --recurse-submodules https://github.com/KhaeraB/P13_ArgentBank
+$ git clone https://github.com/KhaeraB/P13_ArgentBank
+
+$ cd P13_ArgentBank 
+$ git submodule init
+$ git submodule update
 ````
 ![Submodules](https://img.shields.io/badge/dependencies-submodules-orange)
 - Package installations after cloning.

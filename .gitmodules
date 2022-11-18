@@ -1,4 +1,6 @@
 [submodule "backend"]
+	path = backend 
 	url = https://github.com/KhaeraB/Project-13-Bank-API-BACKEND
 [submodule "frontend"]
+	path = frontend
 	url = https://github.com/KhaeraB/Project-13-Bank-API-FRONT-END
