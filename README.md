@@ -1,6 +1,4 @@
-# P13_ArgentBank
-
-# Project #10 - Argent Bank API
+# P13_ArgentBank API
 
 This codebase contains the code needed to run the backend for Argent Bank.
 
